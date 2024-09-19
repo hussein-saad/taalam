@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tajawal", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* body {
+  background: ;
+  background: linear-gradient(90deg, #17435c 0%, #1f5c7a 100%);
+
+} */
+
+@layer components {
+  /* add some animations for the hover effects to the background for a class link */
+
+  .link {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid #fff;
+    transition: background-color 0.3s;
+  }
+
+  .link:hover,
+  .link.active {
+    background-color: #fff;
+    color: #000;
+  }
+}

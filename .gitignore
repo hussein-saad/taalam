@@ -81,3 +81,9 @@ public/
 
 # MacOS files
 .DS_Store
+
+# logs
+node_modules
+dist
+dist-ssr
+*.local
