@@ -1,5 +1,5 @@
 import Lecture from "./Lecture";
-import arrow from "../../assets/downArrow.gif";
+import arrow from "../../assets/GIF/downArrow.gif";
 
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
@@ -52,7 +52,6 @@ const Lectures = () => {
             delay: delay,
             ease: "power3.inOut",
             opacity: 0,
-            yoyo: true,
           });
           delay += 0.1;
           if (isMounted && entry.target instanceof Element) {

@@ -33,9 +33,6 @@ const Nav = () => {
           <Link to="/login" className="link shadow-lg">
             تسجيل الدخول
           </Link>
-          <Link to="/signup" className="link shadow-lg">
-            حساب جديد
-          </Link>
         </div>
         <div className="md:hidden">
           <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -50,16 +47,11 @@ const Nav = () => {
         </div>
       </div>
       <div ref={navRef}>
-        {isOpen && (
-          <div className="md:hidden p-2 flex flex-col gap-2">
-            <Link to="/login" className="link shadow-lg text-right">
-              تسجيل الدخول
-            </Link>
-            <Link to="/signup" className="link shadow-lg text-right">
-              حساب جديد
-            </Link>
-          </div>
-        )}
+        <div className="md:hidden p-2 flex flex-col gap-2">
+          <Link to="/login" className="link shadow-lg text-right">
+            تسجيل الدخول
+          </Link>
+        </div>
       </div>
     </nav>
   );
