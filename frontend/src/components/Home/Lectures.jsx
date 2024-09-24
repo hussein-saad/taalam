@@ -1,80 +1,41 @@
 import Lecture from "./Lecture";
 import arrow from "../../assets/GIF/downArrow.gif";
 
-import { gsap } from "gsap";
-import { useEffect, useRef } from "react";
 
 const lectures = [
   {
     title: "المحاضرة الثالثه",
     description: "محاضرة تعليمية في مجال الشبكات",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-HhZCBlgSmUCgt4Mi0IBzGT4V72kIhFycg&s",
+    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
   },
   {
     title: "المحاضرة الثانيه",
     description: "محاضرة تعليمية في مجال التصميم",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-HhZCBlgSmUCgt4Mi0IBzGT4V72kIhFycg&s",
+    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
   },
   {
     title: "المحاضرة الأولى",
     description: "محاضرة تعليمية في مجال البرمجة",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-HhZCBlgSmUCgt4Mi0IBzGT4V72kIhFycg&s",
+    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
   },
   {
     title: "المحاضرة السادسه",
     description: "محاضرة تعليمية في مجال الشبكات",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-HhZCBlgSmUCgt4Mi0IBzGT4V72kIhFycg&s",
+    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
   },
   {
     title: "المحاضرة الخامسه",
     description: "محاضرة تعليمية في مجال التصميم",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-HhZCBlgSmUCgt4Mi0IBzGT4V72kIhFycg&s",
+    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
   },
   {
     title: "المحاضرة الرابعه",
     description: "محاضرة تعليمية في مجال البرمجة",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-HhZCBlgSmUCgt4Mi0IBzGT4V72kIhFycg&s",
+    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
   },
 ];
 
 const Lectures = () => {
-  const lecRef = useRef([]);
-
-  useEffect(() => {
-    let isMounted = true;
-    const observer = new IntersectionObserver((entries) => {
-      let delay = 0.2;
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          gsap.from(entry.target, {
-            y: 100,
-            duration: 1,
-            delay: delay,
-            ease: "power3.inOut",
-            opacity: 0,
-          });
-          delay += 0.1;
-          if (isMounted && entry.target instanceof Element) {
-            observer.unobserve(entry.target);
-          }
-        }
-      });
-    });
-
-    lecRef.current.forEach((el) => {
-      observer.observe(el);
-    });
-
-    return () => {
-      isMounted = false;
-      lecRef.current.forEach((el) => {
-        if (el instanceof Element) {
-          observer.unobserve(el);
-        }
-      });
-    };
-  }, []);
-
   return (
     <section className="bg-gradient-to-b from-[#0e2736] to-[#091924] py-4">
       <div className="container mx-auto text-center text-white">
@@ -89,7 +50,6 @@ const Lectures = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
           {lectures.map((lecture, index) => (
             <Lecture
-              ref={(el) => (lecRef.current[index] = el)}
               key={index}
               title={lecture.title}
               description={lecture.description}

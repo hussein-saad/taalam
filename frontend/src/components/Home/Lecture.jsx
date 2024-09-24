@@ -1,12 +1,6 @@
-import React from "react";
-
-const Lecture = React.forwardRef((props, ref) => {
-  const { title, description, img } = props;
+const Lecture = ({ title, description, img }) => {
   return (
-    <div
-      ref={ref}
-      className="flex flex-col justify-center items-center cursor-pointer"
-    >
+    <div className="flex flex-col justify-center items-center cursor-pointer">
       <img
         src={img}
         alt="Thumbnail"
@@ -16,6 +10,6 @@ const Lecture = React.forwardRef((props, ref) => {
       <p className="text-lg mt-2 opacity-90">{description}</p>
     </div>
   );
-});
+};
 
 export default Lecture;

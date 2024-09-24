@@ -1,12 +1,25 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
+import useIsAuthenticated from "react-auth-kit/hooks/useIsAuthenticated";
+import useSignOut from "react-auth-kit/hooks/useSignOut";
+
 import { Squash as Hamburger } from "hamburger-react";
 import { gsap } from "gsap";
+import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
   const [isOpen, setOpen] = useState(false);
   const navRef = useRef(null);
+  const navigate = useNavigate();
+
+  const isAuthenticated = useIsAuthenticated();
+  const signOut = useSignOut();
+
+  const signOutHandler = () => {
+    signOut();
+    navigate("/login");
+  };
 
   useEffect(() => {
     if (isOpen) {
@@ -30,27 +43,53 @@ const Nav = () => {
     <nav className="bg-gradient-to-b from-[#13394e] to-[#17435C]">
       <div className="w-full md:container mx-auto flex justify-between items-center p-3 text-white">
         <div className="hidden justify-center items-center gap-4 md:flex">
-          <Link to="/login" className="link shadow-lg">
-            تسجيل الدخول
-          </Link>
+          {!isAuthenticated && (
+            <Link to="/login" className="link shadow-lg">
+              تسجيل الدخول
+            </Link>
+          )}
+          {isAuthenticated && (
+            <button onClick={signOutHandler} className="link shadow-lg">
+              تسجيل الخروج
+            </button>
+          )}
         </div>
         <div className="md:hidden">
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
-        <div className="flex justify-center items-center gap-2">
-          <Link to="/courses" className="p-2">
-            المحاضرات
-          </Link>
-          <Link to="/" className="font-medium text-4xl border-l-2 pl-2">
+        <div className="flex justify-center items-center">
+          {isAuthenticated && (
+            <>
+              <Link to="/resources" className="p-2">
+                الموارد
+              </Link>
+              <Link to="/courses" className="p-2">
+                المحاضرات
+              </Link>
+            </>
+          )}
+          <Link
+            to="/"
+            className={`font-medium text-4xl ${
+              isAuthenticated ? "border-l-2 pl-2" : ""
+            } `}
+          >
             تَعَلَّمْ
           </Link>
         </div>
       </div>
       <div ref={navRef}>
         <div className="md:hidden p-2 flex flex-col gap-2">
-          <Link to="/login" className="link shadow-lg text-right">
-            تسجيل الدخول
-          </Link>
+          {!isAuthenticated && (
+            <Link to="/login" className="link shadow-lg">
+              تسجيل الدخول
+            </Link>
+          )}
+          {isAuthenticated && (
+            <button onClick={signOutHandler} className="link shadow-lg">
+              تسجيل الخروج
+            </button>
+          )}
         </div>
       </div>
     </nav>

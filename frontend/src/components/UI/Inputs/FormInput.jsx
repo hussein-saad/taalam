@@ -3,7 +3,7 @@ import classes from "./FormInput.module.css";
 const FormInput = ({ label, type, name, id }) => {
   return (
     <div className={classes["input-container"]}>
-      <input type={type} id={id} name={name} required />
+      <input type={type} id={id} name={name} required autoComplete="off" />
       <label htmlFor={name} className={classes.label}>
         {label}
       </label>

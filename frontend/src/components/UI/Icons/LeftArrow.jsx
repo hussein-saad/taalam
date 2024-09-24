@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 const LeftArrow = () => {
+  const navigate = useNavigate();
+  
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,7 +10,7 @@ const LeftArrow = () => {
       height="48"
       viewBox="0 0 16 16"
       className="absolute top-4 left-4 rounded-full bg-[#38d39f] p-2 cursor-pointer hover:bg-[#289973] transition-all duration-300"
-      onClick={() => window.history.back()}
+      onClick={() => navigate("/")}
     >
       <path
         fill="white"
