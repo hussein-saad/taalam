@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
 
 import avatar from "../assets/SVG/avatar.svg";
 import loginSVG from "../assets/SVG/login.svg";
@@ -19,6 +19,8 @@ const LoginPage = () => {
 
   const authUser = useAuthUser();
 
+  const [error, setError] = useState(null);
+
   const loginHandler = async (e) => {
     e.preventDefault();
 
@@ -36,11 +38,12 @@ const LoginPage = () => {
         body: JSON.stringify(userData),
       });
 
-      if (!response.ok) {
-        throw new Error("Failed to login");
-      }
-
       const data = await response.json();
+
+      if (!response.ok) {
+        setError(data.message);
+        return;
+      }
 
       signIn({
         auth: {
@@ -80,19 +83,16 @@ const LoginPage = () => {
             type="text"
             name="username"
             id="username"
+            error={error}
           />
           <FormInput
             label="كلمه المرور"
             type="password"
             name="password"
             id="password"
+            error={error}
           />
-          <Link
-            href="#"
-            className="block text-right text-[#999] text-base duration-300 transition hover:text-[#38d39f]"
-          >
-            نسيت كلمه المرور؟
-          </Link>
+          {error && <p className="text-[#ff0000]">{error}</p>}
           <LoginButton />
         </form>
       )}

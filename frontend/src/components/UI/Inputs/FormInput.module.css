@@ -51,3 +51,14 @@
 .input-container input[type="password"]:valid ~ .underline {
   transform: scaleX(1);
 }
+
+.input-container input[type="text"]:focus.error ~ .label,
+.input-container input[type="text"]:valid.error ~ .label,
+.input-container input[type="password"]:focus.error ~ .label,
+.input-container input[type="password"]:valid.error ~ .label {
+  color: #ff0000;
+}
+
+.input-container .underline.error {
+  background-color: #ff0000;
+}

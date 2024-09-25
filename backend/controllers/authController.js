@@ -62,17 +62,17 @@ exports.login = catchAsync(async (req, res, next) => {
   const password = req.body.password;
 
   if (!username) {
-    return next(new CustomError('username not provided', 400));
+    return next(new CustomError('لا يوجد اسم المستخدم', 400));
   }
 
   if (!password) {
-    return next(new CustomError('password not provided', 400));
+    return next(new CustomError('لا يوجد كلمه مرور', 400));
   }
 
   const user = await User.findOne({ username }).select('+password');
 
   if (!user || !(await user.checkPassword(password, user.password))) {
-    return next(new CustomError('Incorrect username or password', 401));
+    return next(new CustomError('اسم المستخدم او كلمه المرور غير صحيحه', 401));
   }
 
   createSendToken(user, 200, res);
