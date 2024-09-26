@@ -1,17 +1,18 @@
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import useIsAuthenticated from "react-auth-kit/hooks/useIsAuthenticated";
 import useSignOut from "react-auth-kit/hooks/useSignOut";
 
 import { Squash as Hamburger } from "hamburger-react";
 import { gsap } from "gsap";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const Nav = () => {
   const [isOpen, setOpen] = useState(false);
   const navRef = useRef(null);
   const navigate = useNavigate();
+  const location = useLocation();
 
   const isAuthenticated = useIsAuthenticated();
   const signOut = useSignOut();
@@ -60,12 +61,26 @@ const Nav = () => {
         <div className="flex justify-center items-center">
           {isAuthenticated && (
             <>
-              <Link to="/resources" className="p-2">
+              <NavLink
+                to="/resources"
+                className={
+                  location.pathname === "/resources"
+                    ? "p-2 rounded-lg bg-gray-800"
+                    : "p-2 rounded-lg hover:bg-gray-800"
+                }
+              >
                 الموارد
-              </Link>
-              <Link to="/courses" className="p-2">
+              </NavLink>
+              <NavLink
+                to="/courses"
+                className={
+                  location.pathname === "/courses"
+                    ? "p-2 rounded-lg bg-gray-800"
+                    : "p-2 rounded-lg hover:bg-gray-800"
+                }
+              >
                 المحاضرات
-              </Link>
+              </NavLink>
             </>
           )}
           <Link
