@@ -41,9 +41,9 @@ const Nav = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-gradient-to-b from-[#13394e] to-[#17435C]">
+    <nav className="fixed w-full z-10 bg-gradient-to-b from-[#13394e] to-[#17435C]">
       <div className="w-full md:container mx-auto flex justify-between items-center p-3 text-white">
-        <div className="hidden justify-center items-center gap-4 md:flex">
+        <div className="hidden justify-center items-center md:flex">
           {!isAuthenticated && (
             <Link to="/login" className="link shadow-lg">
               تسجيل الدخول
@@ -58,7 +58,7 @@ const Nav = () => {
         <div className="md:hidden">
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center gap-1">
           {isAuthenticated && (
             <>
               <NavLink
@@ -72,9 +72,9 @@ const Nav = () => {
                 الموارد
               </NavLink>
               <NavLink
-                to="/courses"
+                to="/courses/1"
                 className={
-                  location.pathname === "/courses"
+                  location.pathname.startsWith("/courses")
                     ? "p-2 rounded-lg bg-gray-800"
                     : "p-2 rounded-lg hover:bg-gray-800"
                 }

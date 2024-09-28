@@ -4,6 +4,7 @@ import RequireAuth from "@auth-kit/react-router/RequireAuth";
 import Root from "./pages/Root";
 import HomePage from "./pages/Home";
 import ResourcesPage from "./pages/Resources";
+import CoursesPage from "./pages/Courses";
 import Login from "./pages/Login";
 import NotFoundPage from "./pages/404";
 
@@ -18,6 +19,14 @@ const router = createBrowserRouter([
         element: (
           <RequireAuth fallbackPath="/login">
             <ResourcesPage />
+          </RequireAuth>
+        ),
+      },
+      {
+        path: "courses/:courseId",
+        element: (
+          <RequireAuth fallbackPath="/login">
+            <CoursesPage />
           </RequireAuth>
         ),
       },
