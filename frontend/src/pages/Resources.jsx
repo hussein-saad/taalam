@@ -2,7 +2,7 @@ import img from "../assets/SVG/math.svg";
 
 const ResourcesPage = () => {
   return (
-    <section className="bg-[#17435C] text-white text-center md:text-right p-2">
+    <section className="bg-[#17435C] text-white text-center md:text-right px-2">
       <div className="flex flex-col md:flex-row justify-center items-center container mx-auto h-screen">
         <img
           src={img}
