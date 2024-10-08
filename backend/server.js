@@ -9,7 +9,7 @@ process.on('uncaughtException', (err) => {
 require('dotenv').config();
 const app = require('./app');
 
-const mongoDB = process.env.MONGODB_LOCAL_URI;
+const mongoDB = process.env.MONGODB_CLOUD_URL;
 
 connectDB();
 
