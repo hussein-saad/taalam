@@ -20,7 +20,13 @@ const LoginPage = () => {
   const authUser = useAuthUser();
 
   const [error, setError] = useState(null);
-
+  const dev = import.meta.env.VITE_NODE_DEV;
+  console.log(dev);
+  let url =
+    dev === "true"
+      ? "http://localhost:3000/api/v1/users/login"
+      : "https://taalam.onrender.com/api/v1/users/login";
+  console.log(url);
   const loginHandler = async (e) => {
     e.preventDefault();
 
@@ -28,9 +34,8 @@ const LoginPage = () => {
       username: e.target.username.value,
       password: e.target.password.value,
     };
-
     try {
-      const response = await fetch("http://localhost:3000/api/v1/users/login", {
+      const response = await fetch(url, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
