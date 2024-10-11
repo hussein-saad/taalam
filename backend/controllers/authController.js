@@ -6,18 +6,6 @@ const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
 const CustomError = require('./../utils/CustomError');
 
-exports.loginLimiter = rateLimit({
-  limit: 5,
-  windowMs: 60 * 60 * 1000,
-  message: 'too many login attempts, please try again in an hour',
-});
-
-const sendToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN,
-  });
-};
-
 const createSendToken = (user, statusCode, res) => {
   const token = sendToken(user._id);
 
