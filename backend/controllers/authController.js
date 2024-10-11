@@ -6,6 +6,13 @@ const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
 const CustomError = require('./../utils/CustomError');
 
+
+const sendToken = (id) => {
+  return jwt.sign({ id }, process.env.JWT_SECRET, {
+    expiresIn: process.env.JWT_EXPIRES_IN,
+  });
+};
+
 const createSendToken = (user, statusCode, res) => {
   const token = sendToken(user._id);
 
