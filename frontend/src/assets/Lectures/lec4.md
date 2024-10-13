@@ -13,16 +13,16 @@
 ### 1.1 قطعة ارض مستطيلة طول احد ضلعيها س+3 وطول الضلع الاخر س-3 اوجد مساحتها
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/1f_GpYkp3ms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/11HLBZnzfmc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### 2.1 هل يمكنك تعريف الفرق بين مربعين
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 10px;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/uhA1DSCB6ZY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/AyhhHpHVlnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-![2.1](../Images/lec4-1.png)
+![4.1](../Images/lec4-1.png)
 
 ### 2.2 حلل المقدار س2-25
 
@@ -36,7 +36,7 @@
 
 ### 5.1 في الشكل الذي امامك حديقة مربعة الشكل س-ص =3 م ، س+ص =9 م اوجد مساحة الجزء المظلل
 
-![5.1](../Images/lec4-2.png)
+![4.2](../Images/lec4-2.png)
 
 ## التقويم
 
