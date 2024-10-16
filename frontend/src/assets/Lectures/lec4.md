@@ -30,13 +30,13 @@
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
 
-<a href="https://1.bp.blogspot.com/-Dk5I20fWbPg/YHCs0xdaq4I/AAAAAAAAB6E/0X7E-Jz2iPArPF64jdLp2ZPh3gqARXHNACLcBGAsYHQ/s1227/%25D8%25A7%25D9%2585%25D8%25AA%25D8%25AD%25D8%25A7%25D9%2586.png" target="_blank"> مصادر لحل مسائل الفرق بين مربعين</a>
+![4.2](https://1.bp.blogspot.com/-Dk5I20fWbPg/YHCs0xdaq4I/AAAAAAAAB6E/0X7E-Jz2iPArPF64jdLp2ZPh3gqARXHNACLcBGAsYHQ/s1227/%25D8%25A7%25D9%2585%25D8%25AA%25D8%25AD%25D8%25A7%25D9%2586.png)
 
 ### 4.1 في تجربة عملية قام الباحثون بقياس طول جناحي نوعين مختلفين من الطيور ، طول جناح الطائر الاول يمثل بالمتغير س وطول جناح الطائر الثاني يمثل بالمتغير ص ، الفرق بين مربعي طول جناحي الطائرين هو 144 سم2 ،اذا كان طول جناح الطائر الاول اكبر بمقدار 6 سم من طول جناح الطائر الثاني اوجد س+ص
 
 ### 5.1 في الشكل الذي امامك حديقة مربعة الشكل س-ص =3 م ، س+ص =9 م اوجد مساحة الجزء المظلل
 
-![4.2](../Images/lec4-2.png)
+![4.3](../Images/lec4-2.png)
 
 ## التقويم
 

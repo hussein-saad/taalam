@@ -37,17 +37,17 @@
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
 
-### 3.0 حلل المقادير س2 - س - 6، س2 + 3س -10 ، س(س-7)+12، 2س2 -4س+2
+### 3.1 حلل المقادير س2 - س - 6، س2 + 3س -10 ، س(س-7)+12، 2س2 -4س+2
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
 
-### 4.0 اثناء دراستك لمادة العلوم اذا كان هناك جسيم متحرك سرعته هي س+3ص م/ث ويقطع مسافة مقدارها س2 -5س ص-24ص2 م ، اوجد الزمن المستغرق في الثانية
+### 4.1 اثناء دراستك لمادة العلوم اذا كان هناك جسيم متحرك سرعته هي س+3ص م/ث ويقطع مسافة مقدارها س2 -5س ص-24ص2 م ، اوجد الزمن المستغرق في الثانية
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/lz-sasMilhg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### 5.0 يمتلك اسر ساحة انتظار للسيارات مستطيلة الشكل مساحتها هي س2 - 30س - 7000 وكان احد بعديها (س - 100) اوجد البعد الاخر
+### 5.1 يمتلك اسر ساحة انتظار للسيارات مستطيلة الشكل مساحتها هي س2 - 30س - 7000 وكان احد بعديها (س - 100) اوجد البعد الاخر
 
 ## التقويم
 

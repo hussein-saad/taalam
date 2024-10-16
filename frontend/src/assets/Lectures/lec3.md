@@ -10,7 +10,7 @@
 
 ## الانشطه
 
-### 1.0 خزان مياة مساحته 4س2+12س+9 ،طول احد ضلعيه 2 س+3 اوجد طول الضلع الاخر وهل الخزان مربع الشكل ام مستطيل الشكل؟
+### 1.1 خزان مياة مساحته 4س2+12س+9 ،طول احد ضلعيه 2 س+3 اوجد طول الضلع الاخر وهل الخزان مربع الشكل ام مستطيل الشكل؟
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/SPvgJJT5lIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -34,15 +34,15 @@
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
 
-<a href="https://1.bp.blogspot.com/-s0MvevPadjk/YG1p6gG4RXI/AAAAAAAAB50/Ddig0rQ_IjcMHW3qCNd5eipCpBFB9ZVHgCLcBGAsYHQ/s1242/%25D8%25A7%25D9%2585%25D8%25AA%25D8%25AD%25D8%25A7%25D9%2586.png" target="_blank">مصادر لحل مسائل المقادر الثلاثي المربع الكامل</a>
+![3.2](https://1.bp.blogspot.com/-s0MvevPadjk/YG1p6gG4RXI/AAAAAAAAB50/Ddig0rQ_IjcMHW3qCNd5eipCpBFB9ZVHgCLcBGAsYHQ/s1242/%25D8%25A7%25D9%2585%25D8%25AA%25D8%25AD%25D8%25A7%25D9%2586.png)
 
 ### 3.2 في الشكل المقابل مربع مقسم الى مربع كبير طول ضلعه س ومربع صغير طول ضلعه 3 ومستطيلان بعديهما س،3 اوجد مجموع مساحتهم ثم قم بتحليل المقدار الناتج
 
-![3.2](../Images/lec3-2.png)
+![3.3](../Images/lec3-2.png)
 
-### 4.0 اذا كان عدد السكان بالمليون يعطى بالعلاقه ك أ2 ب 2 +12أ ب +9 اوجدقيمة ك التي تجعل المقدار الثلاثي مربع كامل ثم اوجد عدد السكان عند أ= 5، ب =10
+### 4.1 اذا كان عدد السكان بالمليون يعطى بالعلاقه ك أ2 ب 2 +12أ ب +9 اوجدقيمة ك التي تجعل المقدار الثلاثي مربع كامل ثم اوجد عدد السكان عند أ= 5، ب =10
 
-### 5.0 مسجد مربع الشكل مساحته( 9 س 2 +30 س +م) م2 ، طول ضلعه عدد نسبي اوجد قيمة م ثم اوجد محيط المربع عند س =2
+### 5.1 مسجد مربع الشكل مساحته( 9 س 2 +30 س +م) م2 ، طول ضلعه عدد نسبي اوجد قيمة م ثم اوجد محيط المربع عند س =2
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Sc9Tir7gfxA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -50,7 +50,7 @@
 
 ## التقويم
 
-### 1.0 مربع طول قطره ( أ+3 )ومساحته ( أ2 +6أ+ج ) اوجد قيمة ج
+### 1.1 مربع طول قطره ( أ+3 )ومساحته ( أ2 +6أ+ج ) اوجد قيمة ج
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/or_0AjT6WpA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
