@@ -26,7 +26,7 @@ const LoginPage = () => {
     dev === "true"
       ? "http://localhost:3000/api/v1/users/login"
       : "https://taalam-6zuc.onrender.com/api/v1/users/login";
-  console.log(url);
+      
   const loginHandler = async (e) => {
     e.preventDefault();
 
