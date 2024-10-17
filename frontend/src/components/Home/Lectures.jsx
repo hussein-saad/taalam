@@ -1,37 +1,43 @@
 import Lecture from "./Lecture";
 import arrow from "../../assets/GIF/downArrow.gif";
-
+import { Link } from "react-router-dom";
 
 const lectures = [
   {
-    title: "المحاضرة الثالثه",
-    description: "محاضرة تعليمية في مجال الشبكات",
-    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
+    title: "الدرس الثالث",
+    description: "تحليل المقدار الثلاثي المربع الكامل",
+    img: "https://static.vecteezy.com/system/resources/thumbnails/013/115/384/small_2x/cartoon-maths-elements-background-education-logo-vector.jpg",
+    id: 3,
   },
   {
-    title: "المحاضرة الثانيه",
-    description: "محاضرة تعليمية في مجال التصميم",
-    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
+    title: "الدرس الثاني",
+    description: "تحليل المقدار الثلاثي الجزء الثاني",
+    img: "https://static.vecteezy.com/system/resources/thumbnails/013/115/384/small_2x/cartoon-maths-elements-background-education-logo-vector.jpg",
+    id: 2,
   },
   {
-    title: "المحاضرة الأولى",
-    description: "محاضرة تعليمية في مجال البرمجة",
-    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
+    title: "الدرس الأول",
+    description: "تحليل المقدار الثلاثي",
+    img: "https://static.vecteezy.com/system/resources/thumbnails/013/115/384/small_2x/cartoon-maths-elements-background-education-logo-vector.jpg",
+    id: 1,
   },
   {
-    title: "المحاضرة السادسه",
-    description: "محاضرة تعليمية في مجال الشبكات",
-    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
+    title: "الدرس السادس",
+    description: "التحليل بالتقسيم",
+    img: "https://static.vecteezy.com/system/resources/thumbnails/013/115/384/small_2x/cartoon-maths-elements-background-education-logo-vector.jpg",
+    id: 6,
   },
   {
-    title: "المحاضرة الخامسه",
-    description: "محاضرة تعليمية في مجال التصميم",
-    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
+    title: "الدرس الخامس",
+    description: "تحليل مجموع المكعبين والفرق بينهما",
+    img: "https://static.vecteezy.com/system/resources/thumbnails/013/115/384/small_2x/cartoon-maths-elements-background-education-logo-vector.jpg",
+    id: 5,
   },
   {
-    title: "المحاضرة الرابعه",
-    description: "محاضرة تعليمية في مجال البرمجة",
-    img: "https://www.dochipo.com/wp-content/uploads/2021/10/YouTube-Thumbnail-_-Education-1024x576.png",
+    title: "الدرس الرابع",
+    description: "تحليل الفرق بين المربعين",
+    img: "https://static.vecteezy.com/system/resources/thumbnails/013/115/384/small_2x/cartoon-maths-elements-background-education-logo-vector.jpg",
+    id: 4,
   },
 ];
 
@@ -51,6 +57,7 @@ const Lectures = () => {
           {lectures.map((lecture, index) => (
             <Lecture
               key={index}
+              id={lecture.id}
               title={lecture.title}
               description={lecture.description}
               img={lecture.img}
@@ -59,9 +66,9 @@ const Lectures = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center mt-8 cursor-pointer">
-        <button className="text-white text-2xl font-bold border-2 px-4 py-2 rounded-lg">
+        <Link to="/courses/1" className="text-white text-2xl font-bold border-2 px-4 py-2 rounded-lg">
           استكشف المزيد
-        </button>
+        </Link>
         <img
           src={arrow}
           alt="arrow"

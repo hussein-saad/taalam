@@ -1,9 +1,14 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-
+import useIsAuthenticated from "react-auth-kit/hooks/useIsAuthenticated";
+import useAuthUser from "react-auth-kit/hooks/useAuthUser";
 import img from "../../assets/Images/hero.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
+  const isAuthenticated = useIsAuthenticated();
+  const authUser = useAuthUser();
+
   let mm = gsap.matchMedia();
 
   const imgRef = useRef(null);
@@ -57,17 +62,23 @@ const Hero = () => {
         />
         <div
           ref={textRef}
-          className="flex flex-col text-center items-center md:text-right md:items-end"
+          className="flex flex-col text-center items-center md:text-right md:items-end text-white"
         >
-          <h1 className="text-4xl font-bold text-white">
+          {isAuthenticated && (
+            <h1 className="text-3xl md:text-5xl mb-4 font-bold text-green-400">{authUser.name} مرحبا بك مجددا يا </h1>
+          )}
+          <h1 className="text-4xl font-bold">
             <span className="font-medium">تَعَلَّمْ</span> لكل الناس في كل مكان
           </h1>
-          <p className="text-lg mt-4 text-white opacity-75">
+          <p className="text-lg mt-4 opacity-75">
             موقع تعليمي يقدم دورات تعليمية في مختلف المجالات
           </p>
-          <button className="bg-[#007EC5] text-white px-4 w-full md:w-1/3 py-2 mt-4 rounded-xl shadow-xl hover:bg-transparent hover:border-white border-2 border-[#17435C] transition-all ease-in-out duration-300">
+          <Link
+            to="/courses/1"
+            className="bg-[#007EC5] text-center px-4 w-full md:w-1/3 py-2 mt-4 rounded-xl shadow-xl hover:bg-transparent hover:border-white border-2 border-[#17435C] transition-all ease-in-out duration-300"
+          >
             ابدأ الان
-          </button>
+          </Link>
         </div>
       </div>
     </section>

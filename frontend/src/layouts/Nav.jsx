@@ -79,7 +79,7 @@ const Nav = () => {
                     : "p-2 rounded-lg hover:bg-gray-800"
                 }
               >
-                المحاضرات
+                الدروس
               </NavLink>
             </>
           )}

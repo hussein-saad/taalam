@@ -1,6 +1,12 @@
-const Lecture = ({ title, description, img }) => {
+import { Link } from "react-router-dom";
+
+const Lecture = ({ title, description, img, id }) => {
+  console.log(id);
   return (
-    <div className="flex flex-col justify-center items-center cursor-pointer">
+    <Link
+      to={`/courses/${id}`}
+      className="flex flex-col justify-center items-center cursor-pointer"
+    >
       <img
         src={img}
         alt="Thumbnail"
@@ -8,7 +14,7 @@ const Lecture = ({ title, description, img }) => {
       />
       <h1 className="text-xl font-bold mt-2">{title}</h1>
       <p className="text-lg mt-2 opacity-90">{description}</p>
-    </div>
+    </Link>
   );
 };
 
