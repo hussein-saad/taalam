@@ -21,7 +21,7 @@ const LoginPage = () => {
 
   const [error, setError] = useState(null);
   const dev = import.meta.env.VITE_NODE_DEV;
-  console.log(dev);
+
   let url =
     dev === "true"
       ? "http://localhost:3000/api/v1/users/login"
@@ -56,7 +56,7 @@ const LoginPage = () => {
           type: "Bearer",
         },
         userState: {
-          name: data.data.user.username,
+          name: data.data.user.name,
           id: data.data.user._id,
         },
       });

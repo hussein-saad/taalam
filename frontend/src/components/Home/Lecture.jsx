@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Lecture = ({ title, description, img, id }) => {
-  console.log(id);
   return (
     <Link
       to={`/courses/${id}`}
