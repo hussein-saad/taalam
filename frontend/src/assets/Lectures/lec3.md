@@ -33,6 +33,7 @@
 ### 3.1 حلل المقدار 4س2+44س ص +121ص2
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ![3.2](https://1.bp.blogspot.com/-s0MvevPadjk/YG1p6gG4RXI/AAAAAAAAB50/Ddig0rQ_IjcMHW3qCNd5eipCpBFB9ZVHgCLcBGAsYHQ/s1242/%25D8%25A7%25D9%2585%25D8%25AA%25D8%25AD%25D8%25A7%25D9%2586.png)
 

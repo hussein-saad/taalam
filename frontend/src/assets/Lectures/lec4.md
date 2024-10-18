@@ -29,6 +29,7 @@
 ### 3.1 حلل 1/9 س2- 1/4
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ![4.2](https://1.bp.blogspot.com/-Dk5I20fWbPg/YHCs0xdaq4I/AAAAAAAAB6E/0X7E-Jz2iPArPF64jdLp2ZPh3gqARXHNACLcBGAsYHQ/s1227/%25D8%25A7%25D9%2585%25D8%25AA%25D8%25AD%25D8%25A7%25D9%2586.png)
 

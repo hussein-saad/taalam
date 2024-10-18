@@ -37,6 +37,7 @@
 </div>
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ![10.3](https://assets.sahl.io/lessons/HGqiBdvCw9iIMHSoZAd6c2EByYkGur9joVWuFu6b.jpg)
 

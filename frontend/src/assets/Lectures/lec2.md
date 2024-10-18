@@ -21,6 +21,7 @@
 ### 3.1 حلل:8ع2+2ع-3
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ![2.1](https://1.bp.blogspot.com/-9x3_oarp9GI/YFx1QpNYEtI/AAAAAAAAB40/p40hEik6FvMogPSGFxg1oOV8Hml_5E8JwCLcBGAsYHQ/s1076/%25D8%25A7%25D9%2585%25D8%25AA%25D8%25AD%25D8%25A7%25D9%2586%2B%25D8%25A7%25D9%2584%25D8%25AF%25D8%25B1%25D8%25B3.png)
 

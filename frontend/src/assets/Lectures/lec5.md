@@ -31,6 +31,7 @@
 ### 3.1 حلل 8س3 + 1/8
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ### 3.2 حلل المقدار س3+10 على صورة مجموع مكعبين
 

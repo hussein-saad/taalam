@@ -31,6 +31,7 @@
 ### 3.1 ![11.1](../Images/lec11-1.png)
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ![11.2](https://i.ytimg.com/vi/4I_iWILF2To/sddefault.jpg)
 

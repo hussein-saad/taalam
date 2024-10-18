@@ -36,10 +36,12 @@
 ### 2.2 كيفية تحليل المقدار س2 +5 س+6 ، س2 +6 س+8
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ### 3.1 حلل المقادير س2 - س - 6، س2 + 3س -10 ، س(س-7)+12، 2س2 -4س+2
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ### 4.1 اثناء دراستك لمادة العلوم اذا كان هناك جسيم متحرك سرعته هي س+3ص م/ث ويقطع مسافة مقدارها س2 -5س ص-24ص2 م ، اوجد الزمن المستغرق في الثانية
 

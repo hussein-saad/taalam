@@ -37,6 +37,7 @@
 ![12.2](https://i.ytimg.com/vi/Dfwl4S3CtZk/sddefault.jpg)
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ### 4.1 اذا كان عدد السكان (ص) بالمليون في احدى الدول يتحدد من العلاقة ص= 11,7(1,02)س حيث س عدد السنين بدءاً من عام 2005 فأوجد لأقرب مليون عدد السكان المتوقع لهذه الدول في عام
 

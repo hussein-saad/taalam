@@ -23,6 +23,7 @@
 ### 2.2 4س4+ص4
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ![7.2](https://assets.sahl.io/lessons/4F3BRsIdQbbIIbyM70GxbyQGnKSYTqaDTdx2QxsK.jpg)
 

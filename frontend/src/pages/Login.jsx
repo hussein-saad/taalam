@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import avatar from "../assets/SVG/avatar.svg";
 import loginSVG from "../assets/SVG/login.svg";
 
+import Loader from "../components/UI/Loader/Loader";
 import FormInput from "../components/UI/Inputs/FormInput";
 import LeftArrow from "../components/UI/Icons/LeftArrow";
 import HomeButton from "../components/UI/Buttons/HomeButton";
@@ -16,17 +18,18 @@ import useAuthUser from "react-auth-kit/hooks/useAuthUser";
 const LoginPage = () => {
   const signIn = useSignIn();
   const isAuthenticated = useIsAuthenticated();
-
   const authUser = useAuthUser();
 
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
   const dev = import.meta.env.VITE_NODE_DEV;
 
   let url =
     dev === "true"
       ? "http://localhost:3000/api/v1/users/login"
       : "https://taalam-6zuc.onrender.com/api/v1/users/login";
-      
+
   const loginHandler = async (e) => {
     e.preventDefault();
 
@@ -34,6 +37,8 @@ const LoginPage = () => {
       username: e.target.username.value,
       password: e.target.password.value,
     };
+
+    setLoading(true);
     try {
       const response = await fetch(url, {
         method: "POST",
@@ -46,6 +51,7 @@ const LoginPage = () => {
       const data = await response.json();
 
       if (!response.ok) {
+        setLoading(false);
         setError(data.message);
         return;
       }
@@ -61,11 +67,17 @@ const LoginPage = () => {
         },
       });
 
-      window.location.href = "/";
+      setLoading(false);
+      navigate("/");
     } catch (error) {
+      setLoading(false);
       console.log(error);
     }
   };
+
+  if (loading) {
+    return <Loader />;
+  }
 
   return (
     <section className="flex items-center justify-evenly h-screen bg-gradient-to-t from-slate-800 px-2 to-slate-900">

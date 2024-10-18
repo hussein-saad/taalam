@@ -31,6 +31,7 @@
 ### 3.1 مستطيل مساحته س3 -3س2+27-9س سم2 وعرضه (س+3) سم اوجد طوله عند س =7
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
 ![6.1](https://1.bp.blogspot.com/-BawjRv84Pr4/YHf4x25o9RI/AAAAAAAAB6g/pLk7rLRnfkAIs9mK6zXLShyChLYMJKwtwCLcBGAsYHQ/s1069/%25D8%25A7%25D9%2585%25D8%25AA%25D8%25AD%25D8%25A7%25D9%2586.png)
 
