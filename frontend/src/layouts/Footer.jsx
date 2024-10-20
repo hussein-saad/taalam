@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-[#091924] to-[#040c11] text-white p-3">
+    <footer className="bg-slate-950 text-white p-3">
       <div className="container mx-auto flex flex-col">
         <h1 className="text-4xl font-bold drop-shadow-lg">Ta'llam</h1>
         <p className="text-lg mt-2 opacity-90">

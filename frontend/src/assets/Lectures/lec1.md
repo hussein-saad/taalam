@@ -38,6 +38,8 @@
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
 <a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
 
+![1.1](https://ai.egyafrica.com/wp-content/uploads/2024/02/%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D8%A7%D9%84%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D8%A8%D8%B3%D9%8A%D8%B7-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D8%A8%D8%B1-%D9%84%D9%84%D8%B5%D9%81-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF%D9%8A.png)
+
 ### 3.1 حلل المقادير س2 - س - 6، س2 + 3س -10 ، س(س-7)+12، 2س2 -4س+2
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>

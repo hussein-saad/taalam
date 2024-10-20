@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 
 import CourseNav from "../components/Courses/CourseNav";
 import CourseContent from "../components/Courses/CourseContent";
-import Footer from "../layouts/Footer";
 
 const CoursesPage = () => {
   const { courseId } = useParams();
@@ -13,7 +12,6 @@ const CoursesPage = () => {
         <CourseNav />
         <CourseContent id={courseId} />
       </section>
-      <Footer />
     </>
   );
 };
