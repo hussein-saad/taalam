@@ -1,47 +1,52 @@
-# تطبيقات على حل معادلة من الدرجة الثانية في متغير واحد جبرياً
+# حل معادلة من الدرجة الثانية في متغير واحد جبرياً
 
-## الاهداف
+## الأهداف
 
-### عزيزي التلميذ بنهاية دراستك لهذا الدرس يتوقع ان تكون قادراً على:
+### عزيزي التلميذ بنهاية دراستك لهذا الدرس يتوقع أن تكون قادراً على:
 
-#### 1. تحل مسائل لفظية من الدرجة الثانية في متغير واحد جبرياً
+#### ١. تتعرف على المعادلة التربيعية من الدرجة الثانية في متغير واحد
 
-#### 2. تستخدم الجبر لحل مسائل حياتية
+#### ٢. تحل معادلة من الدرجة الثانية في متغير واحد جبرياً
 
-## الانشطه
+## الأنشطة
 
-### 1.1 يزيد عمر باسم عن عمر حنان بمقدار سنتين فأذا كان مجموع عمريهما 26 سنه ففوجد عمر باسم
+### ١.١ هل يمكنك تعريف المعادلة ، درجة المعادلة كما سبق لك دراستها
 
-### 2.1 اذا كان ثلاثة امثال مربع العدد س يساوي 12 اوجد قيمة س
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Sji_e8aN5eg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+أي أن المعادلة: هي جملة رياضية تحتوي على متغير واحد أو أكثر وتتضمن علاقة التساوي 
+درجة المعادلة : هي درجة أعلى حد جبري تحتوي عليه المعادلة
 
-![9.1](../Images/lec9-1.png)
+### ١.٢ أوجد درجات المعادلات ٣س+٢=٨، س٢-٥س-٦=٢،٢س+٣ص=٧
 
-### 3.1 عدد صحيح موجب اذا اضيف ضعف مربعه الى معكوسه الجمعي كان الناتج 91 فما هو العدد
+### ١.٣ علبة حليب مستطيلة مساحتها (٥س+٢) م٢، عرضها=٧ م، طولها =١ م أوجد قيمة س
 
-![9.2](../Images/lec9-2.png)
-
-### 4.1 ملعب كرة قدم مساحته 7000 متر مربع ، طوله يزيد عن عرضه بمقدار 30 متراً ، ما المسافة التي يقطعها عداء اذا قام بالجري حول الملعب دورتين كاملتين
+### ٢.١ هل يمكنك تعريف المعادلة التربيعية
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/6xsMMy_arZ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/o_U4PoPxUic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### 4.2 ذهب احمد الى المكتبة وقرأ عدد س كتباً فإذا كان مربع الكتب التي قرأها هي يساوي 6 مضروباً في العدد الذي قرأه مطروحاً منه 9، ما عدد الكتب التي قرأها أحمد؟
+أي أن المعادلة التربيعية : هي معادلة من الدرجة الثانية في متغير واحد س يمكن وضعها على الصورة أ س٢ +ب س +ج=٠ ، أ≠٠
 
-### 5.1 اذا كان عمر كمال الان يزيد عن عمر اخيه انيس بمقدار 3 سنوات ومنذ اربع سنوات كان حاصل ضرب عمريهما حينئذ 18 فما عمر كل منهما الان؟
+### ٢.٢ حل المعادلة س٢+س-١٢=٠
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/2m00HP8uT44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### ٣.١ حل المعادلة س٢+٤س=١٢
+
+![٨.١](https://i.ytimg.com/vi/loeCD4V2sTo/sddefault.jpg)
+
+### ٤.١ تطير طائرة بسرعة ٢ م/ث وتقطع مسافة مقدارها س+ ١/س في زمن قدره ١ ث أوجد قيمة س+ ١/س ثم حل المعادلة
+
+<a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
+<a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>
+
+### ٥.١ يمتلك أسر ساحة انتظار للسيارات مستطيلة الشكل مساحتها هي س٢ - ٣٠س - ٧٠٠٠ وكان أحد بعديها (س - ١٠٠) أوجد البعد الآخر
 
 ## التقويم
 
-### 1.1 حجرة عرضها 9 م ، طولها 12م يخطط مهندس ديكور لشراء سجادة بحيث يترك حول السجادة شريط متساوي العرض غير مغطي ، كم يكون عرض الشريط اذا كانت السجادة تغطي نصف مساحة الحجرة ؟
-
-## الواجب المنزلي
-
-### 1.1 احسب محيط مثلث قائم الزاوية طولا ضلعي القائمة (5س+3)، (س+5) من السنتيمترات ومساحته 24 سم2
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom:10px;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/NTiNQR33pWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom:10px;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/p_wCrB5VfE0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+### ١.١ عند قفز الدولفين فوق سطح الماء فإنه يرسم مساراً يتبع العلاقة: ص = -٢ س٢ +٢٠س حيث ص ارتفاع الدولفين بالقدم فوق سطح الماء ، س المسافة الأفقية بالقدم ، أوجد المسافة الأفقية بالقدم التي يقطعها الدولفين من بداية قفزه بالماء ليصطدم بسطح الماء مرة أخرى
