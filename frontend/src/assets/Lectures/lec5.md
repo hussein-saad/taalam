@@ -39,11 +39,15 @@
 
 #### ٤.١ في دراسة اقتصادية، تم تحليل إيرادات شركتين تعملان في نفس القطاع. الإيرادات الشهرية للشركة الأولى يُعبر عنها بالمتغير س، والإيرادات الشهرية للشركة الثانية يُعبر عنها بالمتغير ص. الفرق بين مكعبي إيرادات الشركتين هو ١٠٠٠ مليون دولار. حلل المقدار الناتج، إذا كانت إيرادات الشركة الأولى أكبر بمقدار ٢ مليون دولار من إيرادات الشركة الثانية. أوجد قيمة المقدار س² + س ص + ص².
 
+#### ٥.١ إذا كان خزانا مياه على شكل مكعبين طول حافتيهما س، ص. أوجد الفرق بين حجميهما إذا كان س² - ص² = ٣٦، س + ص = ٦، س² + س ص + ص² = ٨.
+
+### من المعلوم
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/dNH9vVMSaQY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### ٥.١ إذا كان خزانا مياه على شكل مكعبين طول حافتيهما س، ص. أوجد الفرق بين حجميهما إذا كان س² - ص² = ٣٦، س + ص = ٦، س² + س ص + ص² = ٨.
+### اي ان 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom:10px;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/UWa1fAsYmKQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

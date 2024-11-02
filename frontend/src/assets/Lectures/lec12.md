@@ -49,9 +49,13 @@
 
 #### ٥.١ ![١٢.٣](../Images/lec12-2.png)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom:10px;">
+### حجم الاسطوانه الدائريه القائمة
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/0Af7sMxdbCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+### وبالتالي فإن حجم المخروط
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/fu29vN9Rv7o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

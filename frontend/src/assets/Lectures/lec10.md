@@ -18,9 +18,13 @@
 
 #### ١.٢ ماذا يقرأ العددين ٤^٣ ، ٣^٤- وما قيمتهما ؟
 
+### تعريف القوى الصحيحة الموجبه
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 10px;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/SDg_VUAMZxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+### تعريف القوى الصحيحة السالبة
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/H5bc8xey2P0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -34,6 +38,10 @@
 
 #### ٣.١ ![١٠.٢](../Images/lec10-2.png)
 
+![١٠.٥](../Images/lec10-3.png)
+
+### اي ان
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 10px;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/kCMVfg4GM8Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -44,8 +52,6 @@
 ![١٠.٣](https://assets.sahl.io/lessons/HGqiBdvCw9iIMHSoZAd6c2EByYkGur9joVWuFu6b.jpg)
 
 ![١٠.٤](https://i.ytimg.com/vi/m1tqkwv0AQg/sddefault.jpg)
-
-![١٠.٥](../Images/lec10-3.png)
 
 #### ٤.١ ![١٠.٦](../Images/lec10-4.png)
 
