@@ -38,13 +38,13 @@
 
 #### ٣.١ ![١٠.٢](../Images/lec10-2.png)
 
-![١٠.٥](../Images/lec10-3.png)
-
-### اي ان
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 10px;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/kCMVfg4GM8Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+### اي ان
+
+![١٠.٥](../Images/lec10-3.png)
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
 <a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>

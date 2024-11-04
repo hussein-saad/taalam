@@ -44,3 +44,11 @@
 #### ١.١ حلل (أ² - ٢ أ ب + ب²) - ج².
 
 #### ١.٢ إذا كان س > ص، س² - ٢ س ص + ص² = ١٦، س + ص = ٩. أوجد قيمة س² - ص².
+
+### الواجب المنزلي 
+
+#### مثلث قائم الزاوية طول وتره 41 سم وطول احد ضلعي القائمة 40 سم استخدم التحليل لحساب طول ضلع القائمة الاخر 
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 10px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/_ZVLzutyTsI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

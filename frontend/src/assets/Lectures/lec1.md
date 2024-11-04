@@ -9,12 +9,17 @@
 
 ### الأنشطة
 
-#### ١.١ هل يمكنك تعريف المقدار الجبري
+#### ١.١ هل يمكنك تعريف الحد الجبري و المقدار الجبري ؟
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 0;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/1f_GpYkp3ms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-أي أن المقدار الجبري: تعبير جبري يتكون من مجموعة حدود جبرية بينها إشارة جمع أو طرح.
+
+### اي أن
+
+الحد الجبري :هو ما تكون من من حاصل ضرب عاملين أو أكثر
+
+المقدار الجبري: تعبير جبري يتكون من مجموعة حدود جبرية بينها إشارة جمع أو طرح.
 
 #### ١.٢ ما هو المقدار الثلاثي؟ هل يعد المقدار س² + ٥ س + ٦ مقداراً ثلاثياً؟
 

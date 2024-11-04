@@ -15,7 +15,11 @@
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 0;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Sji_e8aN5eg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-أي أن المعادلة: هي جملة رياضية تحتوي على متغير واحد أو أكثر وتتضمن علاقة التساوي 
+
+### اي أن
+
+المعادلة: هي جملة رياضية تحتوي على متغير واحد أو أكثر وتتضمن علاقة التساوي 
+
 درجة المعادلة : هي درجة أعلى حد جبري تحتوي عليه المعادلة
 
 #### ١.٢ أوجد درجات المعادلات ٣س+٢=٨، س٢-٥س-٦=٢،٢س+٣ص=٧

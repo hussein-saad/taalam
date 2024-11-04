@@ -11,11 +11,13 @@
 
 #### ١.١ اشترى ناصر قطعة قماش مستطيلة الشكل أحد بعديها س٤+٤ م ، البعد الآخر ١ م أوجد المساحة وحلل الناتج ثم أوجد مساحته إذا كان س٢+٢س+٢=٢ ، س٢-٢س+٢ =٣
 
-#### ٢.١ هل يمكنك تعريف إكمال المربع
+![7.1](https://birchwood.com/wp-content/uploads/2023/09/BirchwoodFurniture-aug2023-missingheroes-fabrics-1.jpg)
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 0; margin-bottom: 10px;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/mrF75y1ubII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+#### ٢.١ هل يمكنك تعريف إكمال المربع
 
 ![٧.١](../Images/lec7-1.png)
 
