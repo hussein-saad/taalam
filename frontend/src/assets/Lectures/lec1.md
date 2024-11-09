@@ -33,6 +33,12 @@
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/nlK8jQ1VdAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+#### ١.٥ ضرب مقدار جبري مكون من حدين في مقدار جبري اخر
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/r1BMzehHvr8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 #### ٢.١ كيفية تحليل المقدار الثلاثي على شكل س² + ب س + ج بطريقة أسهل من الخطوات السابقة.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
