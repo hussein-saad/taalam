@@ -10,7 +10,7 @@
 
 ### الأنشطة
 
-#### ١.١ هل يمكنك تعريف المعادلة ، درجة المعادلة كما سبق لك دراستها
+#### ١.١ عرف المعادلة ، درجة المعادلة كما سبق لك دراستها
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 0;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Sji_e8aN5eg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -26,7 +26,7 @@
 
 #### ١.٣ علبة حليب مستطيلة مساحتها (٥س+٢) م٢، عرضها=٧ م، طولها =١ م أوجد قيمة س
 
-#### ٢.١ هل يمكنك تعريف المعادلة التربيعية
+#### ٢.١ عرف المعادلة التربيعية
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/o_U4PoPxUic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

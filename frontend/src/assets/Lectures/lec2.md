@@ -12,13 +12,13 @@
 
 ![1.1](https://5.imimg.com/data5/SELLER/Default/2020/10/UJ/PT/AG/2456006/storage-silo-500x500.jpg)
 
-#### ٢.١ هل يمكنك تحليل المقدار الثلاثي على صورة أ س² + ب س + ج؟
+#### ٢.١ حلل المقدار الثلاثي على صورة أ س² + ب س + ج؟
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/1CRFGhbt3ps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### ٢.٢ هل يمكنك تحليل المقدار ١٢ س² - س - ٦؟
+#### ٢.٢ حلل المقدار ١٢ س² - س - ٦؟
 
 #### ٣.١ حلل: ٨ ع² + ٢ ع - ٣
 

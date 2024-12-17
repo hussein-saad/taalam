@@ -9,7 +9,7 @@
 
 ### الأنشطة
 
-#### ١.١ هل يمكنك تعريف الحد الجبري و المقدار الجبري ؟
+#### ١.١ عرف الحد الجبري و المقدار الجبري ؟
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 0;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/JbxvAh9-peU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -39,13 +39,13 @@
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/r1BMzehHvr8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### ٢.١ كيفية تحليل المقدار الثلاثي على شكل س² + ب س + ج بطريقة أسهل من الخطوات السابقة.
+#### ٢.١ حلل المقدار الثلاثي على شكل س² + ب س + ج بطريقة أسهل من الخطوات السابقة.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/uhA1DSCB6ZY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### ٢.٢ كيفية تحليل المقدار س² + ٥ س + ٦، س² + ٦ س + ٨
+#### ٢.٢ حلل المقدار س² + ٥ س + ٦، س² + ٦ س + ٨
 
 <a href="https://ar.symbolab.com/" target="_blank">استخدم سيمبولاب</a>
 <a href="https://photomath.com/install/" target="_blank">استخدم فوتوماث</a>

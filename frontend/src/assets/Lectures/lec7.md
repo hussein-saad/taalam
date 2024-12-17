@@ -17,7 +17,7 @@
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/mrF75y1ubII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### ٢.١ هل يمكنك تعريف إكمال المربع
+#### ٢.١ عرف إكمال المربع
 
 ![٧.١](../Images/lec7-1.png)
 
