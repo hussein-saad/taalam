@@ -10,20 +10,26 @@ require('dotenv').config();
 const app = require('./app');
 
 const mongoDB = process.env.MONGODB_CLOUD_URL;
+const PORT = process.env.PORT || 3000;
 
-connectDB();
-
-async function connectDB() {
+async function startServer() {
   try {
     await mongoose.connect(mongoDB);
     console.log('MongoDB is Connected...');
+
+    const server = app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`);
+    });
+
+    process.on('unhandledRejection', (err) => {
+      console.log('UNHANDLED REJECTION! Shutting down...');
+      console.log(err.name, err.message);
+      server.close(() => process.exit(1));
+    });
   } catch (err) {
-    console.error(err.message);
+    console.error('Failed to connect to MongoDB:', err.message);
+    process.exit(1);
   }
 }
 
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+startServer();
